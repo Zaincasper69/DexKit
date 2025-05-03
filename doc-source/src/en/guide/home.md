@@ -36,4 +36,59 @@ worry either; the API also provides corresponding chain call support, which allo
 to have a good experience.
 
 All example code in the documentation will be written in Kotlin. You can easily understand the
-corresponding Java usage through the examples [here](/DexKit/zh-cn/).
+corresponding Java usage through the exa<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.luckypray</groupId>
+  <artifactId>dexkit</artifactId>
+  <version>2.0.0-rc9</version>
+  <packaging>aar</packaging>
+  <name>dexkit</name>
+  <description>A high-performance runtime parsing library for dex implemented in C++.</description>
+  <url>https://github.com/LuckyPray/DexKit</url>
+  <licenses>
+    <license>
+      <name>LGPL-3.0 license</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.html</url>
+      <distribution>https://www.gnu.org/licenses/lgpl-3.0.html</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>luckypray</name>
+      <url>https://luckypray.org/DexKit</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/LuckyPray/DexKit.git</connection>
+    <developerConnection>scm:git:ssh://github.com/LuckyPray/DexKit.git</developerConnection>
+    <url>https://github.com/LuckyPray/DexKit.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.flatbuffers</groupId>
+      <artifactId>flatbuffers-java</artifactId>
+      <version>23.5.26</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.rikka.ndk.thirdparty</groupId>
+      <artifactId>cxx</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
+/).
